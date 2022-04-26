@@ -201,9 +201,20 @@ background-image: url(../images/desks.png);
     margin: 20px;
   }
 
-  #heroGrid {
+  #heroGrid{
     grid-template-areas:
-    'featuredProduct featuredProduct'
-    'secondaryProduct CTA';
+    "featuredProduct featuredProduct"
+    "secondaryProduct CTA";
+  }
+
+  #categoryGrid{
+    grid-template-rows: 300px 300px 30px 300px 300px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "bookcases"
+    "bedroom"
+    "patio"
+    "couches"
+    "desks";
   }
 }
